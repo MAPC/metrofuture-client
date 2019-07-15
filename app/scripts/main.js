@@ -1,4 +1,8 @@
 /*global MfiaClient, $*/
+$(document).ready(function () {
+  MfiaClient.init();
+});
+
 
 window = this;
 
@@ -80,8 +84,8 @@ window.MfiaClient = {
   }
 };
 
-$(document).ready(function () {
-  MfiaClient.init();
-});
+// $(document).ready(function () {
+//   MfiaClient.init();
+// });
 
 
